@@ -24,7 +24,11 @@ pub struct WalkOptions {
 /// Collect and analyze all supported source files under a path.
 pub fn collect_metrics(options: &WalkOptions) -> Result<Vec<FileMetrics>> {
     let root = &options.root;
-    anyhow::ensure!(root.exists(), "path does not exist: {}", root.display());
+    anyhow::ensure!(
+        root.exists(),
+        "path does not exist: {} (provide a readable file or directory to analyze)",
+        root.display()
+    );
 
     let mut metrics = Vec::new();
 
