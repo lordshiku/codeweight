@@ -1,6 +1,6 @@
 [package]
 name = "codeweight"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 description = "Static code complexity analyzer for Python, JavaScript/TypeScript, Rust, and Java"
 license = "MIT"
