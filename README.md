@@ -1,3 +1,6 @@
+[![CI](https://github.com/lordshiku/codeweight/actions/workflows/ci.yml/badge.svg)](https://github.com/lordshiku/codeweight/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 # codeweight
 
 **codeweight** is a static code complexity analyzer written in Rust. Point it at a directory of source files and it reports line metrics, function counts, cyclomatic complexity, nesting depth, and a maintainability score — per file and in aggregate.
